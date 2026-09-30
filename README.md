@@ -57,9 +57,11 @@ ITC      | ITC Limited         | ₹500
 **Sample Output**
 
 Market Data and Trading
+
 <img width="352" height="842" alt="STP output1" src="https://github.com/user-attachments/assets/98191f72-c75b-4514-8a58-4e89694b2baa" />
 
 Portfolio and Transaction History
+
 <img width="407" height="512" alt="STP output 2" src="https://github.com/user-attachments/assets/0f7da4ee-ce39-4cbc-89ad-e0797a5538dd" />
 
 **Internship**
