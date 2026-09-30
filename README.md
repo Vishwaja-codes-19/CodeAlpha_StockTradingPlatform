@@ -1,33 +1,38 @@
-**CodeAlpha Stock Trading Platform**
+**Stock Trading Platform**
 
-A Java-based console application that simulates basic stock trading operations. This project was developed as part of the CodeAlpha Java Programming Internship.
+A Java-based console application that simulates basic stock trading operations, including buying and selling stocks, portfolio management, and transaction tracking.
 
 **Features**
-
-- Display available stock market data
+- Display stock market data
 - Buy stocks
 - Sell stocks
-- Track user's cash balance
-- Track stock portfolio
+- Track cash balance
+- Manage stock portfolio
 - Calculate portfolio value
+- Calculate total account value
 - Maintain transaction history
-- Object-Oriented Programming (OOP) implementation
+- Validate stock quantities
+- Handle insufficient funds and invalid transactions
 
 **Technologies Used**
 - Java
 - Object-Oriented Programming
 - ArrayList
 - HashMap
-- Java Scanner
+- Scanner
+- Git & GitHub
 
 **Project Structure**
-CodeAlpha_StockTradingPlatform/
+
+Stock-Trading-Platform/
 ├── Main.java
 ├── Stock.java
 ├── User.java
-└── Transaction.java
+├── Transaction.java
+└── README.md
 
 **How to Run**
+
 Compile the Java files:
 
 javac Main.java Stock.java User.java Transaction.java
@@ -37,22 +42,23 @@ Run the application:
 java Main
 
 **How It Works**
-1. Enter the user's name and initial cash balance.
-2. View the available stocks and their prices.
-3. Buy stocks using the available cash balance.
-4. Sell stocks from the portfolio.
-5. View the current portfolio and account value.
-6. View the transaction history.
-7. Exit the application.
+1. The application displays available market stocks.
+2. The user enters their name and initial cash balance.
+3. The user can view market data.
+4. The user can buy or sell stocks.
+5. The portfolio keeps track of owned shares.
+6. The application calculates portfolio value and total account value.
+7. All completed buy and sell operations are stored in transaction history.
+8. The user can continue using the platform until choosing the exit option.
 
 **Sample Stocks**
-
-Symbol   |     Company         | Price
-TCS      | Tata Consultancy    | ₹3500
-INFY     | Infosys             | ₹1800
-RELIANCE | Reliance Industries | ₹2900
-HDFC     | HDFC Bank           | ₹1700
-ITC      | ITC Limited         | ₹500
+ 
+Symbol    | Company             | Price
+TCS       | Tata Consultancy    | ₹3500
+INFY      | Infosys             | ₹1800
+RELIANCE  | Reliance Industries | ₹2900
+HDFC      | HDFC Bank           | ₹1700
+ITC       | ITC Limited         | ₹500
 
 **Sample Output**
 
@@ -64,7 +70,5 @@ Portfolio and Transaction History
 
 <img width="407" height="512" alt="STP output 2" src="https://github.com/user-attachments/assets/0f7da4ee-ce39-4cbc-89ad-e0797a5538dd" />
 
-
-**Internship**
-
-Developed as part of the CodeAlpha Java Programming Internship.
+**Learning Outcomes**
+This project provided practical experience with Java, Object-Oriented Programming, collections such as ArrayList and HashMap, user input handling, transaction processing, and basic application design.
