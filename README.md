@@ -64,6 +64,7 @@ Portfolio and Transaction History
 
 <img width="407" height="512" alt="STP output 2" src="https://github.com/user-attachments/assets/0f7da4ee-ce39-4cbc-89ad-e0797a5538dd" />
 
+
 **Internship**
 
 Developed as part of the CodeAlpha Java Programming Internship.
